@@ -88,13 +88,181 @@
 # print(f"You have {days_left} days, {weeks_left} weeks, {months_left} months")
 
 
-total_bill = float(input("What was the total bill? $"))
-tip_percentage = int(input("What percentage tip would you like to give? 10, 12, 0r 15"))
-number_of_people = int(input("How many people to split the bill?"))
+# total_bill = float(input("What was the total bill? $"))
+# tip_percentage = int(input("What percentage tip would you like to give? 10, 12, 0r 15"))
+# number_of_people = int(input("How many people to split the bill?"))
+#
+# tip_amount = float((total_bill * tip_percentage)/100)
+#
+# print(f"Your tip is {tip_amount}, therefore your total is $ {total_bill + tip_amount}")
 
-tip_amount = float((total_bill * tip_percentage)/100)
+# CONDITIONAL
 
-print(f"Your tip is {tip_amount}, therefore your total is $ {total_bill + tip_amount}")
+# print("Welcome to the roller coaster!")
+# height = int(input("What is your height in cm? "))
+# if height > 120:
+#     print("You can ride the roller coaster")
+# else:
+#     print("You cannot ride the roller coaster")
+
+# number = int(input("Which number do you want to check? "))
+#
+# if number % 2 == 0:
+#     print("The number is even")
+#     age = int(input("What is your age?"))
+#     if age <= 12:
+#         print("Please pay $5")
+#     elif age <= 18:
+#         print("Please pay $7")
+#     else:
+#         print("Please pay $12")
+# else:
+#     print("The number is odd")
+
+# height = float(input("Enter your height in m: "))
+# weight = float(input("Enter your weight in kg: "))
+#
+# bmi = round(weight/(float(height) ** 2))
+
+# BMI CALCULATOR
+# if bmi < 18.5:
+#     print(f"You are underweight because your BMI is {bmi}")
+# elif bmi < 25:
+#     print(f"You are normal weight because your BMI is {bmi}")
+# elif bmi < 30:
+#     print(f"You are overweight because your BMI is {bmi}")
+# elif bmi < 35:
+#     print(f"You are obese because your BMI is {bmi}")
+# else:
+#     print(f"You are clinically obese because your BMI is {bmi}")
+
+# year = int(input("Which year do you want to check?"))
+
+# LEAP YEAR
+# if year % 4 == 0:
+#     if year % 100 == 0:
+#         if year % 400 == 0:
+#             print("Leap year")
+#         else:
+#             print("Not leap year")
+#     else:
+#         print("Leap year")
+# else:
+#     print("not a leap year")
+
+# ROLLER COASTER WITH AGE AND PHOTOS
+# height = int(input("What is your height in cm? "))
+# bill = 0
+#
+# if height >= 120:
+#     print("You can ride the roller coaster")
+#     age = int(input("What is your age?"))
+#     if age < 12:
+#         bill = 5
+#         print("Child tickets are $5")
+#     elif age <= 18:
+#         bill = 7
+#         print("Youth tickets are $7")
+#     else:
+#         bill = 12
+#         print("Adult tickets are $12")
+#
+#     wants_photo = input("Do you want a photo taken? Y or N. ")
+#
+#     if wants_photo == "Y":
+#         bill = bill + 3
+#     print(f"Your final bill is ${bill}")
+#
+# else:
+#     print("Sorry, you have to grow taller before you can ride.")
+
+# PIZZA DELIVERY
+
+# print("Welcome to Python Pizza Deliveries")
+# size = input("What size pizza do you want? S,M,L,XL ")
+# add_chicken = input("Would you like to add chicken? Y/N ")
+# extra_cheese = input("Would you like to add cheese? Y/N ")
+#
+# bill = 0
+#
+# if size == "S":
+#     bill += 15
+# elif size == "M":
+#     bill += 20
+# else:
+#     bill += 25
+#
+# if add_chicken == "Y":
+#     if size == "S":
+#         bill = bill + 2
+#     else:
+#         bill = bill + 3
+#
+# if extra_cheese == "Y":
+#     bill += 1
+#
+# print(f"Your final bill is {bill}")
+
+# LOVE CALCULATOR
+# print("Welcome to the love calculator")
+# name1 = input("What is your name?")
+# name2 = input("What is their name?")
+#
+# combined_string = name1 + name2
+# lower_case_string = combined_string.lower()
+#
+# t = lower_case_string.count("t")
+# r = lower_case_string.count("r")
+# u = lower_case_string.count("u")
+# e = lower_case_string.count("e")
+#
+# true = t + r + u + e
+#
+# l = lower_case_string.count("l")
+# o = lower_case_string.count("o")
+# v = lower_case_string.count("v")
+# e = lower_case_string.count("e")
+#
+# love = l + o + v + e
+#
+# love_score = int(str(true) + str(love))
+#
+#
+# if (love_score < 10) or (love_score > 90):
+#     print(f"Your love score is {love_score}, you go together like coke and mentos")
+# elif (love_score >= 40) and (love_score <= 50):
+#     print(f"Your score is {love_score}, you are alright together")
+# else:
+#     print(f"Your score is {love_score}")
+
+# TREASURE ISLAND
+# print("Welcome to the Treasure Island, Your mission is to find the treasure")
+# choice1 = input('You\'re at a crossroad, where do you want to ? Type "left" or "right" ').lower()
+#
+# if choice1 == "left":
+#     choice2 == input("type wait or swim").lower()
+#     if choice2 == "wait":
+#         choice3 == input("Pick one color. Red or Blue or Yellow").tolower()
+#         if choice3 == "red":
+#             print("game over")
+#         elif choice3 == "blue":
+#             print("game over")
+#         elif choice3 == "yellow":
+#             print("You've found the treasure")
+#     else:
+#         print("You got attacked by angry bird")
+# else:
+#     print("You fell into a hole. Game over.")
+
+
+
+
+
+
+
+
+
+
 
 
 
