@@ -302,21 +302,124 @@
 # selected_row[horizontal - 1]
 
 # ROCK, PAPER & SCISSORS
-import random
+# import random
+#
+#
+# user_choice = int(input("What do you choose? Type 0 for Rock, 1 for Scissors or 2 for Paper "))
+# computer_choice = random.randint(0,2)
+#
+# print(f"You choose {user_choice}")
+# print(f"Computer choose {computer_choice}")
+#
+# if user_choice == 0 and computer_choice == 2:
+#     print("You won")
+# elif computer_choice > user_choice:
+#     print("You lose")
+# else:
+#     print("Invalid number")
+
+# fruits = ["Apple", "Peach", "Pear"]
+# for fruit in fruits:
+#     print(fruit)
+
+# student_heights = [20,30,40,50,60,70,80,90]
+#
+# for height in student_heights:
+#     print((sum(student_heights)/(len(student_heights))))
+
+# student_heights = input("Input a list of student heights ").split()
+# for n in range(0, len(student_heights)):
+#     student_heights[n] = int(student_heights[n])
+# print(student_heights)
+#
+# total_height = 0
+# for height in student_heights:
+#     total_height += height
+# print(total_height)
+#
+# number_of_students = 0;
+# for student in student_heights:
+#     number_of_students += 1
+# print(number_of_students)
+
+# student_scores = [78, 65, 89, 86, 55, 91, 64, 89]
+# for n in range(0, len(student_scores)):
+#     student_scores[n] = int(student_scores[n])
+# print(max(student_scores))
+# print(min(student_scores))
+#
+# highest_score = 0
+# for score in student_scores:
+#     if score > highest_score:
+#         highest_score = score
+# print(f"The highest score in the class is: {highest_score}")
+
+# total = 0
+# for number in range(1, 101):
+#     total += number
+# print(total)
+
+# sum_even = 0
+# for number in range(2, 100, 2):
+#     sum_even += number
+#     # print(number)
+#     print(f"This will calculate sum in every step {sum_even}")
+# print(f"This will calculate the total sum {sum_even}")
+
+# FIZZ-BUZZ
+# for number in range(1, 100):
+#     if number % 3 == 0 and number % 5 == 0:
+#         print(f"FizzBuzz {number}")
+#     elif number % 5 == 0:
+#         print(f"Buzz {number}")
+#     elif number % 3 == 0:
+#         print(f"Fizz {number}")
+#     else:
+#         print(number)
+
+# PASSWORD GENERATOR
+# import random
+#
+# letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k']
+# numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+# symbols = ['!', '@', '#', '$', '%', '^', '&', '*', '(', ')']
+#
+# print("Welcome to the PyPassword Generator!")
+#
+# nr_letters = int(input("How many letters would you like to in your password?\n "))
+# nr_numbers = int(input("How many numbers would you like to in your password?\n "))
+# nr_symbols = int(input("How many symbols would you like to in your password?\n "))
+#
+# password_list = []
+#
+# for char in range(1, nr_letters + 1):
+#     # random_char = random.choice(letters)
+#     # password += random_char
+#     password_list += random.choice(letters)
+#
+# for char in range(1, nr_numbers + 1):
+#     password_list += random.choice(numbers)
+#
+# for char in range(1, nr_symbols + 1):
+#     password_list += random.choice(symbols)
+#
+# print(password_list)
+# random.shuffle(password_list)
+# print(password_list)
+#
+# password = ""
+# for char in password_list:
+#     password += char
+#     # print(password)
+# print(password)
 
 
-user_choice = int(input("What do you choose? Type 0 for Rock, 1 for Scissors or 2 for Paper "))
-computer_choice = random.randint(0,2)
 
-print(f"You choose {user_choice}")
-print(f"Computer choose {computer_choice}")
 
-if user_choice == 0 and computer_choice == 2:
-    print("You won")
-elif computer_choice > user_choice:
-    print("You lose")
-else:
-    print("Invalid number")
+
+
+
+
 
 
 
