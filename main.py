@@ -242,7 +242,7 @@
 # if choice1 == "left":
 #     choice2 == input("type wait or swim").lower()
 #     if choice2 == "wait":
-#         choice3 == input("Pick one color. Red or Blue or Yellow").tolower()
+#         choice3 == input("Pick one color. Red or Blue or Yellow").lower()
 #         if choice3 == "red":
 #             print("game over")
 #         elif choice3 == "blue":
@@ -253,6 +253,71 @@
 #         print("You got attacked by angry bird")
 # else:
 #     print("You fell into a hole. Game over.")
+# import random
+# import my_module
+#
+# print(f"This is import from my_module {my_module.pi}")
+#
+# random_integer = random.randint(1, 10)
+# print(f"This is random integer {random_integer}")
+#
+# random_float = random.random() * 5
+# print(f"This is random float {random_float}")
+
+# import random
+#
+# random_side = random.randint(0,1)
+# if random_side == 1:
+#     print("Head")
+# else:
+#     print("Tails")
+
+# states_of_america = ["Delaware", "California", "Texas", "North Dakota"]
+#
+# states_of_america[1] = "C"
+# states_of_america.append("Florida")
+# states_of_america.extend([1,2,3,4,5])
+#
+# print(states_of_america)
+# import random
+# names_string = input("Give me everybody's names, separated by a comma ")
+# names = names_string.split(",")
+# num_items = len(names)
+# random_choice = random.randint(0, num_items-1)
+# person_who_will_pay = names[random_choice]
+# print(person_who_will_pay)
+# random.randint(0,)
+
+# TREASURE MAP
+# row1 = ["", "", ""]
+# row2 = ["", "", ""]
+# row3 = ["", "", ""]
+# map = [row1, row2, row3]
+# print(f"{row1}\n{row2}\n{row3}")
+# position = input("Where do you want to put the treasure? ")
+# horizontal = int(position[0])
+# vertical = int(position[1])
+#
+# selected_row = (map[vertical - 1])
+# selected_row[horizontal - 1]
+
+# ROCK, PAPER & SCISSORS
+import random
+
+
+user_choice = int(input("What do you choose? Type 0 for Rock, 1 for Scissors or 2 for Paper "))
+computer_choice = random.randint(0,2)
+
+print(f"You choose {user_choice}")
+print(f"Computer choose {computer_choice}")
+
+if user_choice == 0 and computer_choice == 2:
+    print("You won")
+elif computer_choice > user_choice:
+    print("You lose")
+else:
+    print("Invalid number")
+
 
 
 
